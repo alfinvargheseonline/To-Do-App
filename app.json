@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "DailyDo",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Image/Icon-img.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Image/Icon-img.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Image/Icon-img.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.alfinvarghese.todoapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a378eb2c-a28a-4afa-b7de-26587428b633"
+      }
+    }
+  }
+}
